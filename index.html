@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Desenvolvedor Web</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <link href="style-portfolio.css" rel="stylesheet">
+    
+    <meta name="description" content="Portfólio de [Seu Nome], desenvolvedor web focado em criação de soluções digitais e fabricação digital.">
+    <meta name="keywords" content="portfólio, desenvolvedor, web, fabricação digital, projetos, html, css, javascript">
+</head>
+<body class="theme-dark">
+
+    <header id="header" class="fixed-header">
+        <div class="container">
+            <a href="#home" class="logo-link">
+                <span class="logo-text">Ramos. Dev</span>
+            </a>
+            
+            <nav class="nav-bar" role="navigation" aria-label="Menu Principal">
+                <ul class="menu">
+                    <li class="menu-item"><a href="#home">Home</a></li>
+                    <li class="menu-item"><a href="#sobre">Sobre Mim</a></li>
+                    <li class="menu-item"><a href="#habilidades">Habilidades</a></li>
+                    <li class="menu-item"><a href="#projetos">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato">Contato</a></li>
+                </ul>
+                <button class="btn-menu" aria-label="Abrir menu mobile" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+
+        <section id="home" class="hero-section">
+            <div class="container hero-content">
+                <p class="hero-intro">Olá, eu sou</p>
+                <h1 class="hero-title">Joao Gabriel Salustiano Ramos</h1>
+                <h2 class="hero-subtitle">Desenvolvedor Web & Entusiasta de Fabricação Digital</h2>
+                <p class="hero-description">
+                    Construindo o futuro digital, pixel por pixel. Especializado em Back-End, 
+                    com paixão por transformar ideias complexas em soluções práticas e inovadoras.
+                </p>
+                <a href="#projetos" class="btn btn-primary">
+                    Ver Projetos <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="hero-particles"></div>
+        </section>
+
+        <section id="sobre" class="section section-about">
+            <div class="container about-grid">
+                <div class="about-info">
+                    <span class="section-tag">Sobre</span>
+                    <h2 class="section-title">Quem sou eu?</h2>
+                    <p>
+                        Comecei minha jornada em programação com a curiosidade de entender como as coisas funcionam. Hoje, sou um desenvolvedor dedicado a criar interfaces de usuário intuitivas e de alta performance . Minha experiência inclui   HTML5 e JavaScript.
+                    </p>
+                    <p>
+                        Acredito que a interseção entre programação e fabricação digital (como no projeto Fab Lab) é o futuro da inovação, e trago esse pensamento de "fazer acontecer" para cada linha de código que escrevo.
+                    </p>
+                    <a href="@salutianojoao7@gmail.com" class="btn btn-secondary">
+                        Fale Comigo <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section section-skills">
+            <div class="container">
+                <span class="section-tag">Expertise</span>
+                <h2 class="section-title">Minhas Habilidades</h2>
+                
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Frontend</h3>
+                        <p>HTML, CSS (Sass/Less), JavaScript (ES6+), Vue.js, Responsividade.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Backend</h3>
+                        <p>Node.js, Express, Python (Django/Flask), SQL, REST APIs.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-tools"></i>
+                        <h3>Ferramentas</h3>
+                        <p>Git, GitHub, VS Code, npm, Webpack, Docker (Básico).</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-cube"></i>
+                        <h3>Inovação</h3>
+                        <p>Prototipagem Rápida, Impressão 3D (Noções), Design Thinking.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="section section-projects">
+            <div class="container">
+                <span class="section-tag">Trabalhos</span>
+                <h2 class="section-title">Projetos em Destaque</h2>
+                
+                <div class="projects-grid">
+                    
+                    <article class="project-card">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-tag">Frontend & Web</span>
+                            <h3>Website Fab Lab Brasil</h3>
+                            <p>Desenvolvimento do site de Contato, Equipe e Blog, focado em responsividade e usabilidade para promover a fabricação digital.</p>
+                            <div class="project-links">
+                                <a href="https://jottaramoss.github.io/Fab-Lab/" target="_blank" class="project-link">
+                                    <i class="fas fa-eye"></i> Ver Projeto
+                                </a>
+                                <a href="https://github.com/JottaRamoss/Fab-Lab.git" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-tag">Full-Stack</span>
+                            <h3>E-commerce de Alta Conversão para Salgados e Delivery</h3>
+                            <p>Plataforma que transformou o processo de pedido em uma experiência simples e rápida, resultando em um aumento direto na taxa de conversão de pedidos online</p>
+                            <div class="project-links">
+                                <a href="https://jottaramoss.github.io/Salgadoss/" target="_blank" class="project-link">
+                                    <i class="fas fa-eye"></i> Ver Projeto
+                                </a>
+                                <a href="https://github.com/JottaRamoss/Salgadoss.git" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-tag">Data Viz</span>
+                            <h3>E-commerce de Alta Performance para Joalheria</h3>
+                            <p>Desenvolvimento de uma plataforma de e-commerce completa para uma joalheria de luxo, focada em replicar a sofisticação e exclusividade da loja física no ambiente digital.</p>
+                            <div class="project-links">
+                                <a href="https://jottaramoss.github.io/Joias/" target="_blank" class="project-link">
+                                    <i class="fas fa-eye"></i> Ver Projeto
+                                </a>
+                                <a href="https://github.com/JottaRamoss/Joias.git" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section section-contact">
+            <div class="container">
+                <span class="section-tag">Conexão</span>
+                <h2 class="section-title">Vamos Construir Algo Juntos?</h2>
+                <p class="section-description">
+                    Estou sempre aberto a novas oportunidades, colaborações em projetos e desafios. Envie-me uma mensagem!
+                </p>
+                
+                <div class="contact-methods">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>E-mail</h3>
+                        <a href="mailto:seu.email@exemplo.com">salutianojoao7@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/joaogabrielramoss/" target="_blank">Joao Ramos</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/JottaRamoss?tab=repositories" target="_blank">Joao Ramos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="footer-portfolio">
+        <div class="container">
+            <p>&copy; 2025 Joao Ramos.</p>
+        </div>
+    </footer>
+    
+    <script src="script-portfolio.js"></script>
+</body>
+</html>
